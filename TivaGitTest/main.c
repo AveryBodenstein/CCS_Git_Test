@@ -16,4 +16,8 @@ int main(void) {
 
 void init(){
 	// this function initializes things
+	uint8_t butts,temp;
+	for(butts=0;butts<255;butts++){
+		temp = butts & 0x0f;
+	}
 }
